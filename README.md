@@ -1,4 +1,12 @@
-Wuju
-====
+-- Wuju, Cinema4D Boujou export fixer --
 
-Wuju is a Bash script made for Mac OS X that fixes a bug in the 3D Motion Tracking application Boujou where the export module will generate faulty files for Cinema4D.  This scripts fixes the output files from Boujou to Cinema4D, namely the camera being upside down and tracking nulls not being linked to the scene.
+/!\ When exporting to Cinema4D in boujou, please set "Start Index" to 0, if it's set to 1 puppies will die in
+Oblivion /!\
+
+Run the script by calling ./Boujou in the Terminal, you can input a path to your file 
+(ex : /Users/JeanBoule/file.c4d)
+
+HF
+Hardisk
+Youtube.com/Hardisk
+
