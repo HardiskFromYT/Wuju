@@ -3,6 +3,17 @@
 echo " "
 echo -e "Welcome to Wuju, wich file do you want to fix? \c "
 read file
+
+if [ ! -f "$file" ]
+then
+    echo "$file does not exist, or is not a regular file." && exit 1
+fi
+
+if [ ! -w "$file" ]
+then
+    echo "You cannot edit file $file: permission denied." && exit 1
+fi
+
 echo " Fixing file $file ..."
 
 sed -i "" -e 's/Key -3.141593/Key 0.00000/g' $file
