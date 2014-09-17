@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo " "
 echo -e "Welcome to Wuju, wich file do you want to fix? \c "
 read file
