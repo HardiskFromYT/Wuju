@@ -10,7 +10,7 @@ sed -i "" -e 's/ParentItem 10000001/ParentItem 10000002/g' $file
 sed -i "" -e 's/Key -0.000000/Key 0.000000/g' $file
 
 
-echo " File fixed ! Thanks for using Wuju ! "
-echo " If you find Wuju useful, please subscribe to my YouTube channel : Youtube.com/Hardisk"
+echo " File fixed! Thanks for using Wuju! "
+echo " If you find Wuju useful, please subscribe to my YouTube channel: Youtube.com/Hardisk"
 echo " "
 
